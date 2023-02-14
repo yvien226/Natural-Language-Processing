@@ -175,6 +175,15 @@ for ind, email in data.iterrows():
 #dataframe
 email_data_df = pd.DataFrame(email_data_list, columns=cols)
 
+# calculate the overall sentiment score from the content using VADER
+polarity = [round(analyser.polarity_scores(i)['compound'], 2) for i in email_data_df['body']]
+email_data_df['sentiment_score'] = polarity
+
+# determine overall sentiment based on the score
+email_data_df['overall_sentiment'] = 'Neutral'
+email_data_df.loc[email_data_df['sentiment_score'] > 0, 'overall_sentiment'] = 'Positive'
+email_data_df.loc[email_data_df['sentiment_score'] < 0, 'overall_sentiment'] = 'Negative'
+
 
 # ### save results into excel or csv
 email_data_df.to_excel('OUTPUT/' + output_name_xls , index=False)

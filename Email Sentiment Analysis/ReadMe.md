@@ -2,8 +2,11 @@
 
 The original intention of this project is to perform sentiment analysis on my work emails to understand if the message I received or the sender are generally positive, negative or neutral. Sentiment analysis uses natural language processing to recognise the emotional tone behind words. 
 
+The Enron email analysis uses the same method as above to process and analyse the data with the Enron email dataset. It was obtained by the Federal Energy Regulatory Commission during the investigation of Enron Corporation's collapse. The dataset is available to the [public](https://www.cs.cmu.edu/~./enron/).
+
 ## Script
-Python Script: [Read emails and basic sentiment analysis](https://github.com/yvien226/Useful-Python-Scripts/blob/master/NLP/Email%20Sentiment%20Analysis/Read%20emails%20and%20basic%20sentiment%20analysis.py)
+- [Read emails and basic sentiment analysis](https://github.com/yvien226/Natural-Language-Processing/blob/main/Email%20Sentiment%20Analysis/Read%20emails%20and%20basic%20sentiment%20analysis.py) : General code for reading outlook emails and sentiment analysis.
+- [Enron 1000 email analysis](https://github.com/yvien226/Natural-Language-Processing/blob/main/Email%20Sentiment%20Analysis/Enron%201000%20email%20analysis.ipynb) : A notebook which extracts the first 1000 Enron emails and its analysis.
 
 ## Steps
 1. Download email inbox data from outlook and save into csv file
@@ -18,11 +21,15 @@ Python Script: [Read emails and basic sentiment analysis](https://github.com/yvi
     - Remove spaces
     - Lemmatisation (Grouping similar words into single word
 4. Perform sentiment analysis on each word using [VADER (Valence Aware Dictionary for Sentiment Reasoning)](https://github.com/cjhutto/vaderSentiment) and count the number of positive, neutral and negative words in each email content.
-5. Save results into csv/excel file and visualise the data using Power BI.
+5. Save results into csv/excel file and visualise the data.
+
+## Data Visualisation
+Click [here](https://app.powerbi.com/view?r=eyJrIjoiOTgyZmM4OTctZDQ5NS00M2VjLWEyMjEtNGU1ZDI3MjkwNDkyIiwidCI6ImY5OGI0MDAzLTIzY2UtNGQyNS1iZmM2LWU0Nzg1YzNlMGUyZiJ9) to view the data visualisation for Enron's first 1000 Email analysis 
 
 ## Python Libraries
 - pandas
 - spacy
+- nltk
 - vaderSentiment
 
 
