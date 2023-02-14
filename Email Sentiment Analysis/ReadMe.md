@@ -4,9 +4,9 @@ The original intention of this project is to perform sentiment analysis on my wo
 
 The Enron email analysis uses the same method as above to process and analyse the data with the Enron email dataset. It was obtained by the Federal Energy Regulatory Commission during the investigation of Enron Corporation's collapse. The dataset is available to the [public](https://www.cs.cmu.edu/~./enron/).
 
-## Script
-- [Read emails and basic sentiment analysis](https://github.com/yvien226/Natural-Language-Processing/blob/main/Email%20Sentiment%20Analysis/Read%20emails%20and%20basic%20sentiment%20analysis.py) : General code for reading outlook emails and sentiment analysis.
-- [Enron 1000 email analysis](https://github.com/yvien226/Natural-Language-Processing/blob/main/Email%20Sentiment%20Analysis/Enron%201000%20email%20analysis.ipynb) : A notebook which extracts the first 1000 Enron emails and its analysis.
+## Script/Notebook
+- [Read emails and basic sentiment analysis.py](https://github.com/yvien226/Natural-Language-Processing/blob/main/Email%20Sentiment%20Analysis/Read%20emails%20and%20basic%20sentiment%20analysis.py) : General code for reading outlook emails and sentiment analysis.
+- [Enron 1000 email analysis.ipynb](https://github.com/yvien226/Natural-Language-Processing/blob/main/Email%20Sentiment%20Analysis/Enron%201000%20email%20analysis.ipynb) : A notebook which extracts the first 1000 Enron emails and its analysis.
 
 ## Steps
 1. Download email inbox data from outlook and save into csv file
