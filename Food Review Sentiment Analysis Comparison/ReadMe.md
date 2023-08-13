@@ -26,7 +26,7 @@ The 1-5 star rating will be used as the target and compare with the predicted se
 <br>
 
 ## Script/Notebook
-- [Amazon Food Reviews Sentiment Analysis with VADER and RoBERTa.ipynb](https://github.com/yvien226/Natural-Language-Processing/blob/main/Food%20Review%20Sentiment%20Analysis%Comparison/Amazon%20Food%20Reviews%20Sentiment%20analysis%20with%20VADER%20and%20RoBERTa.ipynb) : A notebook which compares the 2 different techniques using Amazon food reviews dataset.
+- [Amazon Food Reviews Sentiment Analysis with VADER and RoBERTa.ipynb](https://github.com/yvien226/Natural-Language-Processing/blob/main/Food%20Review%20Sentiment%20Analysis%20Comparison/Amazon%20Food%20Reviews%20Sentiment%20Analysis%20with%20VADER%20and%20RoBERTa.ipynb) : A notebook which compares the 2 different techniques using Amazon food reviews dataset.
 
 <br>
 
