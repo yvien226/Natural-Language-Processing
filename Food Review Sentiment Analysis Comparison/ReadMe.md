@@ -1,6 +1,6 @@
 # Amazon Food Review Sentiment Analysis Comparison
 
-The purpose of this notebook is to perform sentiment analysis on Amazon fine food reviews, explore different techniques to understand the pros and cons of using each technique and compare their accuracy and speed of analysing the review.
+The purpose of this notebook is to perform sentiment analysis on Amazon fine food reviews and explore different techniques to understand the pros and cons of using each technique, speed and accuracy in particular.
 
 The techniques we explored are:
 1. VADER (Valence Aware Dictionary and Sentiment Reasoner) = Machine Learning (ML)
